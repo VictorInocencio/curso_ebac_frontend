@@ -1,3 +1,103 @@
 *{
-    background-color: aqua;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 18px 0;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(3, 3, 3, 0.877);
+    padding: 18px 5px;
+    outline-offset: 0;
+}
+
+h1, li{
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header li{
+    display: inline;
+    padding: 5px;
+}
+
+header a:hover{
+    background-color: rgba(204, 58, 13, 0.671);
+    font-weight: bolder;
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+section a{
+    background-color: rgba(255, 0, 0, 0.678);
+    padding: 7px;
+    border-radius: 20px;
+}
+
+
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3, p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p{
+    margin-bottom: 15px;
+}
+
+section, h2, h3, p{
+    padding-bottom: 10px;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img{
+    height: 188px;
+    width: 300px
+}
+
+.articles article{
+    width: 26%;
+    padding-bottom: 18px;
+}
+
+section{
+    padding: 0px 40px;
+}
+
+#esportes{
+    background-color: rgba(150, 233, 26, 0.349);
+}
+
+#economia{
+    background-color: rgba(255, 255, 0, 0.349);
+}
+
+#games{
+    background-color: rgba(127, 255, 212, 0.473);
+}
+
+#tech{
+    background-color: rgba(223, 131, 10, 0.349);
+}
+
+.articles a:hover{
+    font-weight: bold;
 }
